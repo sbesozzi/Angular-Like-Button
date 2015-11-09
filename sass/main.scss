@@ -1,6 +1,16 @@
-// Put any @imports here
-// See Readme for a list of supported ones
+@import 'foundation';
 
 body {
-  background: #e2ebf3;
+  background: #EDEEEE;
+}
+
+.container {
+  width: 200px;
+  padding-top: 100px;
+  margin: auto;
+
+  button {
+    border-radius: 5px;
+    background-color: #C8C8C8;
+  }
 }

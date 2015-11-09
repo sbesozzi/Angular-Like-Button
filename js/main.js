@@ -1,5 +1,13 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+// 1. Import Angular
+import angular from 'angular';
 
-console.log('Hello, World');
+// Import Controller
+import MyController from './controller/mycontroller';
+
+// 2. Creating a Module
+angular.module('app', [])
+
+// Controller attached to Module
+// angular.module('app').controller('MyController', MyController);  >>>
+.controller('MyController', MyController);
+
