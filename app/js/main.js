@@ -45,7 +45,7 @@ var _controllerMycontroller = require('./controller/mycontroller');
 
 var _controllerMycontroller2 = _interopRequireDefault(_controllerMycontroller);
 
-// 2. Creating a Module
+// 2. Create a Module
 _angular2['default'].module('app', [])
 
 // Controller attached to Module

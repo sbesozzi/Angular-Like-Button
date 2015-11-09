@@ -16,8 +16,7 @@ let MyController = function ($scope) {
     $scope.message = ($scope.add === 1) ? 'like' : 'likes';
 
   };
-
-  
+ 
 };
 
 // Injecting Controller into scope

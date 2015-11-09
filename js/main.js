@@ -4,7 +4,7 @@ import angular from 'angular';
 // Import Controller
 import MyController from './controller/mycontroller';
 
-// 2. Creating a Module
+// 2. Create a Module
 angular.module('app', [])
 
 // Controller attached to Module
